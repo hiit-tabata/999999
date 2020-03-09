@@ -212,7 +212,7 @@ $(document).keydown(function(e) {
 			console.log("Next Page");
 			break;
 		}
-		case 89:
+		case 78:
 		case 97: // Keypad 1
 		e.preventDefault();
 		if (layer < 3 && keycodes != "09" && keycodes != "0" && selectwordmode == false){
@@ -234,7 +234,7 @@ $(document).keydown(function(e) {
 			layer = 0;
 			break;
 		}
-		case 85:
+		case 77:
 		case 98: // Keypad 2
 		e.preventDefault();
 		if (layer<3 && keycodes != "09" && keycodes != "0" && selectwordmode == false){
@@ -255,7 +255,7 @@ $(document).keydown(function(e) {
 			layer = 0;
 			break;
 		}
-		case 73:
+		case 188:
 		case 99: // Keypad 3
 		e.preventDefault();
 			if (layer<3 && keycodes != "09" && keycodes != "0" && selectwordmode == false){
@@ -339,7 +339,7 @@ $(document).keydown(function(e) {
 			layer = 0;
 			break;
 		}
-		case 78:
+		case 89:
 		case 103: // Keypad 7
 		e.preventDefault();
 			if (layer<3 && keycodes != "09" && keycodes != "0" && selectwordmode == false){
@@ -360,7 +360,7 @@ $(document).keydown(function(e) {
 			layer = 0;
 			break;
 		}
-		case 77:
+		case 85:
 		case 104: // Keypad 8
 		e.preventDefault();
 			if (layer<3 && keycodes != "09" && keycodes != "0" && selectwordmode == false){
@@ -381,7 +381,7 @@ $(document).keydown(function(e) {
 			layer = 0;
 			break;
 		}
-		case 188:
+		case 73:
 		case 105: // Keypad 9
 		e.preventDefault();
 			if (layer<3 && keycodes != "09" && selectwordmode == false){
@@ -404,6 +404,7 @@ $(document).keydown(function(e) {
 		case 13: // Keypad Enter
 			settext('Enter pressed');
 			break;
+		case 190:
 		case 110: // Keypad dot
 		e.preventDefault();
 			settext('Dot pressed');
